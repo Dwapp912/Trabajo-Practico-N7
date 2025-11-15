@@ -11,7 +11,7 @@ public class Figura {
         return nombre;
     }
 
-    // Metodo que usa instanceof para calcular el area de CUALQUIER figura
+    
     public void calcularArea(Figura f) {
         if (f instanceof Circulo) {
             Circulo c = (Circulo) f;
@@ -23,4 +23,5 @@ public class Figura {
             System.out.println("El area del rectangulo " + r.getNombre() + " es: " + area);
         }
     }
+
 }
